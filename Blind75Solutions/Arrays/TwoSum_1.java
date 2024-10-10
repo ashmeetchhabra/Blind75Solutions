@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 public class TwoSum_1 {
-    static public int[] twoSum(int[] nums, int target) {
+     public static int[] twoSum(int[] nums, int target) {
         Map<Integer,Integer> pairInx = new HashMap<>();
         for(int i = 0; i<nums.length;i++){
             if(pairInx.containsKey(target-nums[i])){
